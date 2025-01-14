@@ -71,7 +71,6 @@ mono-traversable ^>= 1.0.21.0
 mtl ^>= 2.3.1
 mutable-containers ^>= 0.3.4.1
 mwc-random ^>= 0.15.1.0
-os-string ^>= 2.0.7
 parallel ^>= 3.2.2.0
 parsec ^>= 3.1.17.0
 parsers ^>= 0.12.12
