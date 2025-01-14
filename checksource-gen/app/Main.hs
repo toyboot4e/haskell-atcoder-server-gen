@@ -35,7 +35,7 @@ main = do
     $ map (\dep -> fromJust (Map.lookup dep pjUnits)) deps
   Text.putStr
     $ genSourceWithExposedImports pds
-    [("ghc-boot-th-9.4.4", ["GHC.LanguageExtensions.Type",
+    [("ghc-boot-th-9.8.4", ["GHC.LanguageExtensions.Type",
             "GHC.ForeignSrcLang.Type",
             "GHC.Lexeme"])]
   return ()
