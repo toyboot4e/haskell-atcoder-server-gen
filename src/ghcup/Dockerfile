@@ -1,8 +1,8 @@
 FROM ubuntu:24.04
 
-ARG GHCVER="9.4.4"
-ARG CABALVER="3.8.1.0"
-ARG GHCUP_APT_DEPENDENCY="build-essential curl libffi-dev libffi8ubuntu1 libgmp-dev libgmp10 libncurses-dev libncurses5 libtinfo5 llvm-13"
+ARG GHCVER="9.8.4"
+ARG CABALVER="3.12.1.0"
+ARG GHCUP_APT_DEPENDENCY="build-essential curl libffi-dev libffi8ubuntu1 libgmp-dev libgmp10 libncurses-dev libncurses5 libtinfo5 llvm-15 libgsl0-dev liblapack-dev libatlas-base-dev"
 ARG USERNAME="runner"
 
 RUN apt-get update && apt-get install -y $GHCUP_APT_DEPENDENCY
